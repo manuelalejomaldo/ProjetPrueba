@@ -1,0 +1,16 @@
+package prueba.main;
+
+import javax.swing.SwingUtilities;
+
+public class Main {
+
+	public static void main(String[] args) {
+		SwingUtilities.invokeLater(() -> {
+			Vue v = new Vue();
+			v.pack();
+			v.setVisible(true);
+		});
+
+	}
+
+}

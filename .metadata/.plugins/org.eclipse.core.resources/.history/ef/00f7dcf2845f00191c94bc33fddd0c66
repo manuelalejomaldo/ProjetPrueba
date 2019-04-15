@@ -1,0 +1,36 @@
+package prueba.vue;
+
+import javax.swing.JFrame;
+
+public class Vue extends JFrame{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+
+
+
+	/**
+	 * Ctor
+	 */
+	public Vue() {
+		
+		ParametrerVue();
+		
+				
+	}
+	
+	
+
+	
+	/**
+	 * 
+	 */
+	private void ParametrerVue() {
+		this.setTitle("Dessin Vectoriel");
+		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		this.setPreferredSize(new Dimension(800, 500));
+		this.setLocationRelativeTo(null);			
+	}
+}
